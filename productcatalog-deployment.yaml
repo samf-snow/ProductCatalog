@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: productcatalog
-          image: productcatalog # Image that will be used inside the container in the cluster
-          imagePullPolicy: IfNotPresent
+          image: samfsnow/productcatalog:latest # Image that will be used inside the container in the 
+          clusterimagePullPolicy: IfNotPresent
           ports:
            - containerPort: 9999 # The port that the container is running on in the cluster
