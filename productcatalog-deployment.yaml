@@ -1,10 +1,10 @@
 apiVersion: v1 # Kubernetes API version
 kind: Service # Kubernetes resource kind we are creating
 metadata: # Metadata of the resource kind we are creating
-  name: ProductCatalog
+  name: productcatalog
 spec:
   selector:
-    app: ProductCatalog
+    app: productcatalog
   ports:
     - protocol: "TCP"
       port: 9999 # The port that the service is running on in the cluster
@@ -14,20 +14,20 @@ spec:
 apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating
 metadata:
-  name: ProductCatalog
+  name: productcatalog
 spec:
   selector:
     matchLabels:
-      app: ProductCatalog
+      app: productcatalog
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
     metadata:
       labels:
-        app: ProductCatalog
+        app: productcatalog
     spec:
       containers:
-        - name: ProductCatalog
-          image: ProductCatalog # Image that will be used inside the container in the cluster
+        - name: productcatalog
+          image: productcatalog # Image that will be used inside the container in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9999 # The port that the container is running on in the cluster
