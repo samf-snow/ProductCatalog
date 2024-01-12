@@ -16,6 +16,10 @@ spec:
     metadata:
       labels:
         app: productcatalog
+        environment: production
+        component: productcatalog
+        type: deployment
+        service: samsshop
     spec:
       containers:
         - name: productcatalog
