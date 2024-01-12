@@ -1,6 +1,6 @@
 metadata:
   business_app: "15b33ab2476bf5101958aca2026d436c"
-  cdm_app_name: "Sams Shop"
-  prod_appservice: "11792addc32b31d00bb1706dc001318d"
+  cdm_app_name: "Product Catalog Service"
+  prod_appservice: "92dd9ab347e3fd101958aca2026d4335"
   sw_product: "c4c4363a476bf5101958aca2026d433f"
   app_model: "4ce8269dc32b31d00bb1706dc00131d3"
