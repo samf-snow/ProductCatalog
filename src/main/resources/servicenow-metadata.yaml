@@ -3,4 +3,5 @@ metadata:
   cdm_app_name: "Product Catalog Service"
   prod_appservice: "92dd9ab347e3fd101958aca2026d4335"
   sw_product: "c4c4363a476bf5101958aca2026d433f"
+  sw_vendor: "1bb802c6c33abd100bb1706dc0013132"
   app_model: "4ce8269dc32b31d00bb1706dc00131d3"
