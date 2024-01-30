@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.samfowler</groupId>
 	<artifactId>ProductCatalog</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<name>ProductCatalog</name>
 	<description>Product Catalog Micro Service</description>
 	<properties>
