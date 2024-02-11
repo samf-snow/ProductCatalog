@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: productcatalog
-  replicas: 4 # Number of replicas that will be created for this deployment
+  replicas: 3 # Number of replicas that will be created for this deployment
   template:
     metadata:
       labels:
